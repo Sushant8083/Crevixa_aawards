@@ -1,0 +1,1330 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+}
+
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#loder{
+    position: relative;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gif{
+    height: 40%;
+    width: 50%;
+    background-image: url(./images/ezgif.com-gif-maker.gif);
+    background-position: center;
+    background-size: cover;    
+}
+
+
+#lode1{
+    z-index: 999;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    position: relative;
+    left: -50%;
+    top: -100%;
+    transition: 0.5s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+#heads{
+    height: 80%;
+    width: 100%;
+    font-family: pp neue machina;
+}
+
+#head1{
+    font-family: pp neue machina;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+    height: 60px;
+    width: 80%;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 70px;
+}
+
+#close{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#lode2{
+    z-index: 999;
+    left: 100%;
+    top: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+#caps{
+    height: 74%;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cap1{
+    text-align: center;
+    height: 94%;
+    border-radius: 1000px;
+    width: 30%;
+    border: 1px solid white;
+    font-family: pp neue machina;
+    color: white;
+}
+
+.c2{
+    font-family: pp neue machina;
+    color: #fff;
+    margin-left: 56px;
+    width: 100px;
+    margin-top: 2ch;
+    font-size: 15px;
+    border: 2px solid #f80000;
+    border-radius: 100px;
+    padding: 1ch;
+    text-transform: uppercase;
+}
+
+#semi{
+    background-color: black;
+    position: fixed;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+    pointer-events: none;
+    transform: translate(-70%,100%);
+    z-index: 999;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#nav{
+    top: 3%;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 40px;
+    position: fixed;
+    z-index: 9999;
+}
+
+#part1{
+    position: relative;
+    top: -190%;
+    left: 8px;
+    height: 80%;
+    width: 55%;
+    /* background-color: aqua; */
+}
+
+/* oval part started */
+
+#oval{
+    position: absolute;
+    left: 10%;
+    top: -5%;
+    height: 50%;
+    width: 80%;
+    border-radius: 50%;
+    border: 1px solid wheat;
+    /* background-color: red; */
+}
+
+#o1{
+    position: absolute;
+    left: 42.5%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 98%;
+    width: 80%;
+    border-radius: 50%;
+    border: 1px solid wheat;
+    background-image: url(./images/hero_logo.8b06effd.gif);
+    background-position: center;
+    background-size: 95%;
+    /* background-color: blue; */
+}
+
+#o2{
+    position: absolute;
+    top: 43%;
+    left: 85%;
+    font-family:gilroy;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+/* oval part over */
+
+#p11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    left: 10%;
+    top: 52%;
+}
+
+#p11a h1{
+    font-family: pp neue machina;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+#p12{
+    position: absolute;
+    left: 7%;
+    top: 70%;
+    height: 25%;
+    width: 86%;
+    /* background-color: red; */
+    background-image: url(./images/crevixa_logo_text.f744686b.png);
+    background-position: center;
+    background-size: 100%;
+    border: 1.5px solid white;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#p12a{
+    position: absolute;
+    left: 101%;
+    height: 100%;
+    width: 24%;
+    border-radius: 1000px;
+    /* background-color: brown; */
+    border: 1px solid white;
+}
+
+/* after nav part completed */
+
+/* menu 2 started */
+
+#part2{
+    position: relative;
+    left: 66%;
+    top: -272%;
+    height: fit-content;
+    width: 30%;
+    border-bottom: 1px solid white;
+    /* background-color: red; */
+}
+
+#p2a{
+    font-family: pp neue machina;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#p2b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+#p2c{
+    display: flex;
+    align-items: center;
+    font-family: pp neue machina;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+#p3a{
+    font-family: pp neue machina;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#p3b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+#p3c{
+    display: flex;
+    align-items: center;
+    font-family: pp neue machina;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+#p4a{
+    font-family: pp neue machina;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#p4b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    border-bottom: 1px solid white;
+    font-size: 26px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+#p4c{
+    display: flex;
+    align-items: center;
+    font-family: pp neue machina;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+#p5a{
+    font-family: pp neue machina;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#p5b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+#p5c{
+    display: flex;
+    align-items: center;
+    font-family: pp neue machina;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+#p6a{
+    font-family: pp neue machina;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 14px;
+    width: 100%;
+}
+
+#p6b{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    border-bottom: 1px solid white;
+    font-size: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s cubic-bezier(0.5, 0, 0.2, 1);
+}
+
+#p6c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: pp neue machina;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+#main2{
+    position: relative;
+    height: 200%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav2{
+    width: 91.5%;
+    margin: 0 57.5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    font-family: pp neue machina;
+    position: relative;
+    top: 50px;
+}
+
+#part3{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    height: 70%;
+    width: 96%;
+    font-family: pp neue machina;
+    /* background-color: aqua; */
+}
+
+#vid1{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid1a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/burbeery.gif);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid1a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v1a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid2{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid2a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/limits.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid2a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v2a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+ 
+#vid3{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid3a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/gangster.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid3a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v3a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid4{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid4a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/levels.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid4a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v4a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid5{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid5a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/puneet\ rap.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid5a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v5a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid6{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid6a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/94flow.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid6a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v6a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid7{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid7a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/jugni.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid7a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v7a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+#vid8{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 45%;
+    width: 22%;
+    /* background-color: red; */
+}
+
+#vid8a{
+    width:100%;
+    height: 74%;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    background-image: url(./images/goddrake.webp);
+    background-position: center;
+    background-size: 120%;
+    filter: grayscale(100%);   
+    border-radius: 25px;
+    border: 2px solid white;
+    transition: 0.5s all cubic-bezier(0.57, 0, 0.28, 1);
+    position: relative;
+}
+
+#vid8a a{
+    display: none;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); font-family: pp neue machina; text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    white-space: nowrap;
+}
+
+#v8a{
+    height: 60px;
+    width: 350px; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+}
+
+/* part 4 (part2 of main age 2) */
+
+#part4{
+    position: absolute;
+    top: 93%;
+    left: 15%;
+    height: 60px;
+    width: 70%;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+/* main page 3 */
+
+#main3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: pp neue machina;
+}
+
+/* main page part 1 (part5) */
+
+#part5{
+    height: 450px;
+    width: 700px;
+    border-radius: 1000px;
+    border: 2px solid white;
+    background-image: url(./images/showreeltitle.68cf6143.gif);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s all cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+/* main page 3 */
+
+#main4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: pp neue machina;
+}
+
+/* main page part 1 (part5) */
+
+#part6{
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 50%;
+    border-radius: 125px;
+    border: 1px solid white;
+}
+
+
+
+#part6a{
+    margin-left: 1%;
+    margin-top: 20px;
+    height: 70%;
+    width: 98%;
+    display: flex;
+}
+
+#cir1{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#c1a{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+    border: 1px solid white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#cir2{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#c2a{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+    border: 1px solid white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#cir3{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#c3a{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+    border: 1px solid white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#cir4{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#c4a{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+    border: 1px solid white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#cir5{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#c5a{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 40px;
+    border-radius: 40%;
+    border: 1px solid white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#part6b{
+    margin-left: 2.5%;
+    margin-top: 10px;
+    height: 90px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: bigilla;
+    padding: 50px 0px;
+}
+
+#scir1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#scir2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#scir3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#scir4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#scir5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/* part 2 of main page 4 (part7) */
+
+#part7{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 25%;
+    border-radius: 125px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#part7a{
+    margin-left: 25px;
+    height: 90%;
+    width: 42%;
+    background-image: url(./images/crevixa_logo_text.f744686b.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#part7b{
+    height: 75%;
+    width: 34%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#p71{
+    height: 100%;
+    width: 30%;
+}
+
+#p71 a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+#p72{
+    height: 73px;
+    width: 75px;
+    background-image: url(https://crevixa.com/assets/crevixa_logo.65978054.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#p73 h6{
+    margin-top: 4px;
+    text-align: end;
+    font-weight: 100;
+}
+
+
+#part7c{
+    height: 76%;
+    width: 10%;
+    background-image: url(https://crevixa.com/assets/orb_2.a810817e.svg);
+    background-position: center;
+    background-size: contain;
+}
+/* hover */
+
+/* main page 1 part 2 hover */
+#p2b:hover{
+    letter-spacing: 3px;
+    color: red;
+}
+#p3b:hover{
+    letter-spacing: 3px;
+    color: red;
+}#p4b:hover{
+    letter-spacing: 3px;
+    color: red;
+}#p5b:hover{
+    letter-spacing: 3px;
+    color: red;
+}#p6b:hover{
+    letter-spacing: 3px;
+    color: red;
+}
+
+/* main page 2 part 1 vid hover  */
+
+#vid1a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid1a:hover>a{
+    display: block;
+}
+
+#vid2a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid2a:hover>a{
+    display: block;
+}
+
+#vid3a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid3a:hover>a{
+    display: block;
+}
+
+#vid4a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid4a:hover>a{
+    display: block;
+}
+
+#vid5a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid5a:hover>a{
+    display: block;
+}
+
+#vid6a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid6a:hover>a{
+    display: block;
+}
+
+#vid7a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid7a:hover>a{
+    display: block;
+}
+
+#vid8a:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+    filter: none;
+}
+
+#vid8a:hover>a{
+    display: block;
+}
+
+/* main page 3 hover  */
+
+#eve a:hover>#part5{
+    border-radius: 50%;
+}
+
+/* main page 4 hover  */
+
+/* part6a hover  */
+
+#cir1:hover{
+    border: 1px solid red;
+}
+
+#cir2:hover{
+    border: 1px solid red;
+}
+
+#cir3:hover{
+    border: 1px solid red;
+}
+
+#cir4:hover{
+    border: 1px solid red;
+}
+
+#cir5:hover{
+    border: 1px solid red;
+}
+
+/* small cir hover  */
+
+#c1a:hover{
+    color: white;
+    height: 45px;
+    width: 62px;
+    border-radius: 40%;
+    border: 1px solid red;
+}
+
+#c2a:hover{
+    color: white;
+    height: 45px;
+    width: 62px;
+    border-radius: 40%;
+    border: 1px solid red;
+}
+
+#c3a:hover{
+    color: white;
+    height: 45px;
+    width: 62px;
+    border-radius: 40%;
+    border: 1px solid red;
+}
+
+#c4a:hover{
+    color: white;
+    height: 45px;
+    width: 62px;
+    border-radius: 40%;
+    border: 1px solid red;
+}
+
+#c5a:hover{
+    color: white;
+    height: 45px;
+    width: 62px;
+    border-radius: 40%;
+    border: 1px solid red;
+}
+
+.slider:hover>#head1{
+    letter-spacing: 3px;
+    color: red;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.603);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
